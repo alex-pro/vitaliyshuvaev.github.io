@@ -12,12 +12,12 @@
   .slide h1 { float: none; }
 
   ul.navigation {
-    text-align: center;
+    text-align: right;
     margin: 0;
     li a {
-      padding: 12px 10px;
-      font-size: 18px;
-      span { font-size: 11px; }
+      padding: 12px 8px;
+      font-size: 14px;
+      span { font-size: 10px; }
     }
   }
 
@@ -41,7 +41,9 @@
   .rating > label {
     font-size: 150%;
   }
-
+  .site-icon {
+    height: 47px;
+  }
 }
 
 @media screen and (max-width : 479px) {
@@ -75,6 +77,9 @@
   }
   .rating > label {
     font-size: 130%;
+  }
+  .site-icon {
+    height: 47px;
   }
 }
 
